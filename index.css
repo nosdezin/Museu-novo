@@ -30,6 +30,10 @@ img{
     padding: 5px;
     box-shadow: 1px 1px 5px gray;
 }
+img:hover{
+    border: 10px solid rgb(66, 66, 66);
+    width: 230px;
+}
 .Botao-Classe{
     background-color: rgb(83, 83, 83);
     color: white;
