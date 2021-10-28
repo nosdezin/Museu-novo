@@ -1,17 +1,17 @@
 // SCRIPT DO BOTÃO DO LUIZ
-//const btnLuiz = document.getElementById('btnLUIZ')
-//const albumLuiz = document.getElementById("luiz")
-//let boolLuiz = true
+const btnLuiz = document.getElementById('btnLUIZ')
+const albumLuiz = document.getElementById("luiz")
+let boolLuiz = true
 
-//btnLuiz.addEventListener('click', () => {
-//    if(boolLuiz == false){
-//        boolLuiz = true
-//        albumLuiz.hidden = boolLuiz
-//    }else{
-//        boolLuiz = false
-//        albumLuiz.hidden = boolLuiz
-//    }
-//})
+btnLuiz.addEventListener('click', () => {
+    if(boolLuiz == false){
+        boolLuiz = true
+        albumLuiz.hidden = boolLuiz
+    }else{
+        boolLuiz = false
+        albumLuiz.hidden = boolLuiz
+    }
+})
 
 // SCRIPT DO BOTÃO DO FABIO
 const btnFabio = document.getElementById("btnFabio")
